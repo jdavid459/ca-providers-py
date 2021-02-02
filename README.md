@@ -14,12 +14,12 @@ You will need jupyter notebook or jupyter lab installed to explore the .ipynb fi
 1.  Run a web scraper that will pull down the data within the NACCRR table.  
 source:  https://bw-interviews.herokuapp.com/data/providers
 
-```retrive_scraped.py```
+```retrieve_scraped.py```
 
 2.  Run a web scraper that will pull down the data from the Heroku API.  
 source:  http://naccrrapps.naccrra.org/navy/directory/programs.php?program=omcc&state=CA
 
-```retrive_api.py```
+```retrieve_api.py```
 
 3.  Run the following script to clean up and standardize data formats (i.e. phone numbers), deduplicate the data, and create a final combined data set.  Unfortunately did not have much time to work on this step and had various questions around this step (see notes below).
 
