@@ -10,6 +10,7 @@ You will need to download the repo and have python and various python packages (
 You will need jupyter notebook or jupyter lab installed to explore the .ipynb file.   I seperated the key scripts out of the notebook to their own dedicated .py files.
 
 ## Usage
+Run these python scripts in the following order
 
 1.  Run a web scraper that will pull down the data within the NACCRR table.  
 source:  https://bw-interviews.herokuapp.com/data/providers
