@@ -52,6 +52,6 @@ i.e.  A standardized table/view *providers* might just be provider_name and type
 
 Happy to expand upon the data standardization piece of this but would prefer speaking about it first to make sure we're aligned on what you're after.  Happy to continue the excersise using python or SQL.  All of this is in Python - which I use fairly often too, but unfortunately doesn't really highlight my main strengths which I believe to be more on the SQL modelling side.
 
-Other things I'd do with more time:  code readability improvements, proper testing, refactor some repetitive code into functions.
+Other things I'd do with more time:  code readability improvements, proper testing, refactor some repetitive code into functions, add DAG graphic into this README, actually schedule the service using Airflow + a cloud DB or Google Sheets.
 
 Feel free to reach out w/ any feedback or questions.
