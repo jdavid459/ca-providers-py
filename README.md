@@ -17,7 +17,7 @@ source:  https://bw-interviews.herokuapp.com/data/providers
 
 ```retrieve_scraped.py```
 
-2.  Run a web scraper that will pull down the data from the Heroku API.  
+2.  Run this .py script that retrieve json data from Heroku API and convert it into a dataframe & CSV.
 source:  http://naccrrapps.naccrra.org/navy/directory/programs.php?program=omcc&state=CA
 
 ```retrieve_api.py```
