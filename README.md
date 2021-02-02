@@ -48,8 +48,10 @@ By the time I got all of the data gathered, I didn't have too much time to work 
 
 i.e.  A standardized table/view *providers* might just be provider_name and type .  A table/view *providers_site* or *provider_location* might include provider_name (ideally provider_id , connecting to *providers*) and the address / location based attribuets.  Lastly *provider_contacts* would join to *provider_sites* and have the contact info for people at that provider.
 
--  Without the context around these data sets it isn't clear what to use as a base here.  Do we trust one of these source more than the other?  Do we trust the internal API data for instance but want to join in fields that it doesn't contain like email by joining on the scraped data by the provider name & zip ?  Lots of various ways to go but none are explicity clear.
+-  Without the context around these data sets it isn't clear what to use as a base here.  Do we trust one of these source more than the other?  Do we trust the internal API data for instance but want to join in fields that it doesn't contain like email by joining on the scraped data by the provider name & zip ?  Lots of various ways to go but none are explicity clear. 
 
 Happy to expand upon the data standardization piece of this but would prefer speaking about it first to make sure we're aligned on what you're after.  Happy to continue the excersise using python or SQL.  All of this is in Python - which I use fairly often too, but unfortunately doesn't really highlight my main strengths which I believe to be more on the SQL modelling side.
+
+Other things I'd do with more time:  code readability improvements, proper testing, refactor some repetitive code into functions.
 
 Feel free to reach out w/ any feedback or questions.
