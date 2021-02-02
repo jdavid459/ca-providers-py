@@ -6,7 +6,7 @@ It then cleans this data and lastly calculates a couple of metrics.
 
 ## Installation
 
-You will need to download the repo and have python and various python packages installed to run these .py files.
+You will need to download the repo and have python and various python packages (pandas, BeautifulSoup) installed to run these .py files.
 You will need jupyter notebook or jupyter lab installed to explore the .ipynb file.   I seperated the key scripts out of the notebook to their own dedicated .py files.
 
 ## Usage
