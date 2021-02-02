@@ -37,7 +37,7 @@ Pandas -> standard for working with data, does a million things (though I actual
 
 ## Tradeoffs you might have made, anything you left out, or what you might do differently if you were to spend additional time on the project
 
-Big tradeoffs here are mainly due to limited time and not having a database pre-spun up.  If I had a DB to work with - or had the time to set up a DB that I could share with the team - I'd rather send all the raw data right to the DB and do all transformation work in SQL.  I think its preferable to have the raw data, all of the transformation steps, and the final data sets all within one language (SQL).  Allows you to easier trace back the lineage of the data and you can also throw dbt on top of it for documentation & DAGs to understand the flows better.
+Big tradeoffs here are mainly due to limited time and not having a pre-spun up database.  If I had a DB to work with or had the time to set up a DB that I could share credentials too, I would have prefered to go that route.  I think its preferable to have the raw data, all of the transformation steps, and the final data sets all within one language (SQL).  This allows you to easier trace back the lineage of the data and you can also throw dbt on top of it for documentation & DAGs to understand the flows better.  I tried to set up a quick DB using SQLite but hit some snags that were too time consuming.  I thought of spinning up a MYSQL DB / or Postgres DB but figured it wouldn't do much good if it was just on my local machine.
 
 
 ## Other notes
